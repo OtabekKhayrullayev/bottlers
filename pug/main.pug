@@ -1,0 +1,340 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible" content="IE=edge")
+        meta(name="viewport" content="width=device-width, initial-scale=1.0")
+        link(href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous")
+        link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer")
+        link(rel="preconnect" href="https://fonts.googleapis.com")
+        link(href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:wght@700&display=swap" rel="stylesheet")
+        link(rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css")
+        link(rel="stylesheet" href="css/main.css")
+        link(rel="stylesheet" href="css/media.css")
+        title First maket
+    body 
+        header.header
+            .row 
+                .col-10.offset-1
+                    .row 
+                        .col-3
+                            .header__menu1
+                                i.fa-brands.fa-instagram
+                                i.fa-solid.fa-w
+                                i.fa-brands.fa-facebook
+                        .col-6  
+                            .header__img
+                                img(src="images/wunderbeer.png" alt="")
+                                h1 Wunderbeer
+                        .col-3 
+                            .header__menu2
+                                i.fa-solid.fa-magnifying-glass
+                                i.fa-solid.fa-cart-shopping
+                    .header__menu3
+                        ul 
+                            li 
+                                a(href="#") Каталог
+                            li 
+                                a(href="#") Дистрибуция
+                            li 
+                                a(href="#") Комплектация магазинов
+                            li 
+                                a(href="#") О компании
+                            li 
+                                a(href="#") Контакты
+        section.coca(style="background-image: url(images/background_img.png)")
+            .container 
+                .bars__img 
+                    img(src="images/wunderbeer.png" alt="")
+                    h1 Wunderbeer
+
+                    button.btn.btn-primary(type="button" style="background-color: rgb(59, 187, 157); border: none;  color: black; font-size: 20px;" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight")
+                        span.bi-list
+                .bars 
+                    .offcanvas.offcanvas-end#offcanvasRight(tabindex="-1"  aria-labelledby="offcanvasRightLabel")
+                        .offcanvas-header
+                            h5#offcanvasRightLabel
+                                i.fa-solid.fa-magnifying-glass
+                                i.fa-solid.fa-cart-shopping
+                            button.btn-close.text-reset(type="button" data-bs-dismiss="offcanvas" aria-label="Close")
+                        .offcanvas-body
+                            ul 
+                                li 
+                                    a(href="#") Каталог
+                                li 
+                                    a(href="#") Дистрибуция
+                                li 
+                                    a(href="#") Комплектация магазинов
+                                li 
+                                    a(href="#") О компании
+                                li 
+                                    a(href="#") Контакты
+                .body__title
+                    p В стремлении
+                        span к совершенству.
+
+                .body__text
+                    p В ассортименте в большом разнообразии представлены хмельные напитки собственного изготовления, атакже от проверенных и надёжных партнёров – приобрести пиво оптом Москве и Московской области можнона выгодных условиях, а главное, будучи уверенным в отличных вкусовых характеристиках!
+
+                .body__button
+                    button Перейти в каталог
+
+                .body__vniz
+                    p Пролистать вниз
+                    img(src="images/Mouse.png" alt="")
+                    .stroke
+                        svg(xmlns="http://www.w3.org/2000/svg" width="8" height="29" viewBox="0 0 8 29" fill="none")
+                            path(d="M3.64645 28.3536C3.84171 28.5488 4.15829 28.5488 4.35355 28.3536L7.53553 25.1716C7.7308 24.9763 7.7308 24.6597 7.53553 24.4645C7.34027 24.2692 7.02369 24.2692 6.82843 24.4645L4 27.2929L1.17157 24.4645C0.97631 24.2692 0.659727 24.2692 0.464465 24.4645C0.269203 24.6597 0.269203 24.9763 0.464465 25.1716L3.64645 28.3536ZM3.5 -2.18557e-08L3.5 28L4.5 28L4.5 2.18557e-08L3.5 -2.18557e-08Z" fill="white")
+        section.wood(style="background-image: url(images/wood_BG.png)")
+            .container-fluid
+                .row
+                    .col-4
+                        .wood__img1
+                            img(src="images/icons-image-1 1.png" alt="")
+
+                    .col-4 
+                        .wood__body
+                            img#wood__body__title(src='images/Group 154.png', alt='')
+                            h1 Наш ассортимент
+
+                            .row(style="margin-top: 30px;")
+                                .col-4
+                                    img(src="images/beer (Traced).png" alt="")
+                                .col-4
+                                    img(src="images/beer 1.png" alt="")
+                                .col-4
+                                    img(src="images/cider (Traced).png" alt="")
+                            .row (style="margin-top: 30px;")
+                                .col-6 
+                                    img(src="images/Beer Bottle And Glass (Traced).png" alt="")
+                                .col-6  
+                                    img(src="images/lemonade (Traced).png" alt="")
+                    .col-4  
+                        .wood__img2 
+                            img(src="images/icons-image-2-600x555 1.png" alt="")
+        section.pochemumi
+            .container 
+                .pochemumi__title
+                    img(src="images/Group 155.png" alt="")
+                    h1 Почему мы
+                .pochemu__body 
+                    .row
+                        .col-8.offset-2
+                            .row 
+                                .col-md-3.col-6
+                                    img(src="images/Group 181.png" alt="")
+                                    p Отборный солод
+                                .col-md-3.col-6
+                                    img(src="images/Group.png" alt="")
+                                    p Качественный хмель
+                                .col-md-3.col-6
+                                    img(src="images/Group 11.png" alt="")
+                                    p Специальная вода
+                                .col-md-3.col-6
+                                    img(src="images/Vector.png" alt="")
+                                    p Современное оборудование
+        section.restangle(style="background-image: url(images/hop_parallax\ 1.png)")
+            .container 
+                .restangle__title
+                    h1 “Чудесное пиво, для замечательных людей”
+
+        section.about
+            .container-fluid
+                .row
+                    .col-md-6.order-md-1
+                        .about__left
+                            .row 
+                                .col-lg-4
+                                    img(src="images/bakal.png" alt="")
+                                .col-lg-8   
+                                    img(src="images/Group 155.png" alt="")
+                                    h1 О компании
+                                    p Приветствуем на официальном сайте компании «Вундербир» – опытного иквалифицированного производителя и поставщика вкусного, качественного пива!В ассортименте в большом разнообразии представлены хмельные напитки собственногоизготовления, а также от проверенных и надёжных партнёров – приобрести пиво оптомМоскве и Московской области можно на выгодных условиях, а главное, будучи увереннымв отличных вкусовых характеристиках!Приветствуем на официальном сайте компании«Вундербир» – опытного и квалифицированного производителя и поставщика вкусного,качественного пива! В ассортименте в большом разнообразии представлены хмельные напитки собственногоизготовления, а также от проверенных и надёжных партнёров – приобрести пиво оптом Москве и Московской области можно на выгодных условиях, а главное, будучи увереннымв отличных вкусовых характеристиках!
+                                    button.bn Подробнее
+                    .col-md-6.order-md-2
+                        .about__right
+                            img(src="images/photo_2019-12-09_13-54-15 1.png", alt="")
+        section.uslugi
+            .container-fluid
+                .uslugi__header
+                    img(src="images/Group 154.png", alt="")
+                    h1 Услуги
+                .row 
+                    .col-md-6.order-md-1
+                        .uslugi__left(style="background-image: url(images/2209.png)")
+                            .text
+                                h1 Дистрибуция
+                                p Предоставляем услуги по комплектации магазинов разливного пива "под ключ"
+                                button Подробнее
+                    .col-md-6.order-md-2
+                        .uslugi__right(style="background-image: url(images/19964\ 1.png)")
+                            .text2
+                                h1 Комплектация магазинов
+                                p Дистрибьюция по Москве и Московской области, региональных производителей пива пивныхнапитков
+                                button Подробнее
+
+        section.novinki
+            .container  
+                .novinki__title
+                    img(src="images/Group 155.png", alt="")
+                    h1 Новинки
+                    p Откройте для себя наше пиво
+                .novinki__body
+                    .row
+                        .col-md-3.col-sm-6.order-sm-1
+                            .novinki__body_center
+                                img(src="images/beer_02-360x963.png", alt="")
+                                h2 Irish Stout
+                                p %4,6, Светлое, Нефильрованное
+                        .col-md-3.col-sm-6.order-sm-2
+                            .novinki__body_center
+                                img(src="images/beer_03-360x963.png", alt="")
+                                h2 Irish Stout
+                                p %4,6, Светлое, Нефильрованное
+                        .col-md-3.col-sm-6.order-sm-3
+                            .novinki__body_center
+                                img(src="images/beer_04-360x963.png", alt="")
+                                h2 Irish Stout
+                                p %4,6, Светлое, Нефильрованное
+                        .col-md-3.col-sm-6.order-sm-4
+                            .novinki__body_center
+                                img(src="images/beer_03-360x963.png", alt="")
+                                h2 Irish Stout
+                                p %4,6, Светлое, Нефильрованное
+                .novinki2
+                    .carousel.slide#carouselExampleCaptions1 
+                        .carousel-indicators
+                            button.active(type="button" data-bs-target="#carouselExampleCaptions1" data-bs-slide-to="0" aria-current="true" aria-label="Slide 1")
+                            button(type="button" data-bs-target="#carouselExampleCaptions1" data-bs-slide-to="1" aria-label="Slide 2")
+                            button(type="button" data-bs-target="#carouselExampleCaptions1" data-bs-slide-to="2" aria-label="Slide 2")
+                            button(type="button" data-bs-target="#carouselExampleCaptions1" data-bs-slide-to="3" aria-label="Slide 2")
+                        .carousel-inner
+                            .carousel-item.active
+                                img(src="images/beer_02-360x963.png", alt="")
+                                .carousel-caption.d-none.d-md-block
+                                    h5(style="color: black;") Irish Stout
+                                    p %4,6, Светлое, Нефильрованное
+                            .carousel-item
+                                img.d-block.w-100(src="images/beer_03-360x963.png", alt="")
+                                .carousel-caption.d-none.d-md-block
+                                    h5 Irish Stout
+                                    p %4,6, Светлое, Нефильрованное
+                            .carousel-item
+                                img.d-block.w-100(src="images/beer_04-360x963.png", alt="")
+                                .carousel-caption.d-none.d-md-block
+                                    h5 Irish Stout
+                                    p %4,6, Светлое, Нефильрованное
+                            .carousel-item
+                                img.d-block.w-100(src="images/beer_04-360x963.png", alt="")
+                                .carousel-caption.d-none.d-md-block
+                                    h5 Irish Stout
+                                    p %4,6, Светлое, Нефильрованное
+                        button.carousel-control-prev(type="button" data-bs-target="#carouselExampleCaptions1" data-bs-slide="prev")
+                            span.carousel-control-prev-icon(aria-hidden="true")
+                            span.visually-hidden Previous
+                        button.carousel-control-next(type="button" data-bs-target="#carouselExampleCaptions1" data-bs-slide="next")
+                            span.carousel-control-next-icon(aria-hidden="true")
+                            span.visually-hidden Next
+
+        section.partneri
+            .container
+                .partneri__title
+                    img(src="images/Group 155.png", alt="")
+                    h1 Наши партнеры
+                .carousel.slide#carouselExampleCaptions(data-bs-ride="carousel")
+                    .carousel-indicators
+                        button.active(type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" aria-current="true" aria-label="Slide 1")
+                        button(type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2")
+                        button(type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3")
+                    .carousel-inner
+                        .carousel-item.active
+                            img.d-block.w-100(src="images/download 1.png", alt="")
+                            .carousel-caption.d-none.d-md-block
+                        .carousel-item
+                            img.d-block.w-100(src="images/Tag_etic_premium_2-e1527760759398 1.png", alt="")
+                            .carousel-caption.d-none.d-md-block
+                        .carousel-item
+                            img.d-block.w-100(src="images/logo 1.png", alt="")
+                            .carousel-caption.d-none.d-md-block
+                    button.carousel-control-prev(type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev")
+                        i.fa-solid.fa-angle-left.fa-beat-fade
+                        span.carousel-control-prev-icon(aria-hidden="true")
+                        span.visually-hidden Previous
+                    button.carousel-control-next(type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next")
+                        i.fa-solid.fa-angle-right.fa-beat-fade
+                        span.carousel-control-next-icon(aria-hidden="true")
+                        span.visually-hidden Next
+        
+        section.novosti
+            .container
+                .novosti__title
+                    img(src="images/Group 154.png", alt="")
+                    h1 Новости
+                .novosti__body
+                    .row
+                        .col-4
+                            img(src="images/19964 1.png", alt="")
+                            h2 Откройте для себя нашекрафтовое пиво
+                            p При покупки 3-х бутылок нашего крафтого пива 1 бутылка в подарок 
+                        .col-4
+                            img(src="images/536943-PJIX1A-613.png", alt="")
+                            h2 Откройте для себя нашекрафтовое пиво
+                            p При покупки 3-х бутылок нашего крафтого пива 1 бутылка в подарок 
+                        .col-4
+                            img(src="images/18069000.png", alt="")
+                            h2 Откройте для себя нашекрафтовое пиво
+                            p При покупки 3-х бутылок нашего крафтого пива 1 бутылка в подарок
+        footer.footer
+            .container
+                .row
+                    .col-md-4.col-6
+                        .footer__1
+                            .footer__1__title
+                                img(src="images/wunderbeer.png", alt="")
+                                h1 Wunderbeer
+                            .footer__1__body
+                                p В ассортименте в большом разнообразии представлены хмельные напитки собственногоизготовления, а также от проверенных и надёжных партнёров.
+                            .footer__1__icons
+                                i.fa-brands.fa-instagram
+                                i.fa-solid.fa-w
+                                i.fa-brands.fa-facebook
+                    .col-md-4.col-6
+                        .footer__2
+                            .footer__2__title
+                                p Контактная информация
+                            .footer__2__body
+                                .footer__2__body__loc
+                                    i.fa-solid.fa-location-dot.fa-bounce
+                                    span Россия, Москва, Рязанский проспект 22, к2
+                                .footer__2__body__number
+                                    i.fa-solid.fa-phone-flip.fa-beat-fade
+                                    p +7 (495) 740-40-51
+                                .footer__2__body__number
+                                    i.fa-solid.fa-phone-flip.fa-beat-fade
+                                    p +7 (495) 740-40-51    
+                                .footer__2__body__number
+                                    i.fa-solid.fa-envelope.fa-flip
+                                    p +7 (495) 740-40-51   
+                    .col-md-4.col-12
+                        .footer__3
+                            p Каталог
+                            p Дистрибуция
+                            p Комплектация магазинов
+                            p О компании
+                            p Контакты
+                            p Корзинa
+        script(src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous")
+
+
+
+
+
+
+
+
+
+
+
+
+
+

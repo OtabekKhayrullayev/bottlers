@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800&amp;family=Roboto:wght@700&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/media.css">
+    <title>First maket</title>
+  </head>
+  <body> 
+    <header class="header">
+      <div class="row"> 
+        <div class="col-10 offset-1">
+          <div class="row"> 
+            <div class="col-3">
+              <div class="header__menu1"><i class="fa-brands fa-instagram"></i><i class="fa-solid fa-w"></i><i class="fa-brands fa-facebook"></i></div>
+            </div>
+            <div class="col-6"> 
+              <div class="header__img"><img src="images/wunderbeer.png" alt="">
+                <h1>Wunderbeer</h1>
+              </div>
+            </div>
+            <div class="col-3"> 
+              <div class="header__menu2"><i class="fa-solid fa-magnifying-glass"></i><i class="fa-solid fa-cart-shopping"></i></div>
+            </div>
+          </div>
+          <div class="header__menu3">
+            <ul> 
+              <li> <a href="#">Каталог</a></li>
+              <li> <a href="#">Дистрибуция</a></li>
+              <li> <a href="#">Комплектация магазинов</a></li>
+              <li> <a href="#">О компании</a></li>
+              <li> <a href="#">Контакты</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="coca" style="background-image: url(images/background_img.png)">
+      <div class="container"> 
+        <div class="bars__img"> <img src="images/wunderbeer.png" alt="">
+          <h1>Wunderbeer</h1>
+          <button class="btn btn-primary" type="button" style="background-color: rgb(59, 187, 157); border: none;  color: black; font-size: 20px;" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><span class="bi-list"></span></button>
+        </div>
+        <div class="bars"> 
+          <div class="offcanvas offcanvas-end" id="offcanvasRight" tabindex="-1" aria-labelledby="offcanvasRightLabel">
+            <div class="offcanvas-header">
+              <h5 id="offcanvasRightLabel"><i class="fa-solid fa-magnifying-glass"></i><i class="fa-solid fa-cart-shopping"></i></h5>
+              <button class="btn-close text-reset" type="button" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul> 
+                <li> <a href="#">Каталог</a></li>
+                <li> <a href="#">Дистрибуция</a></li>
+                <li> <a href="#">Комплектация магазинов</a></li>
+                <li> <a href="#">О компании</a></li>
+                <li> <a href="#">Контакты</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="body__title">
+          <p>В стремлении<span>к совершенству.</span></p>
+        </div>
+        <div class="body__text">
+          <p>В ассортименте в большом разнообразии представлены хмельные напитки собственного изготовления, атакже от проверенных и надёжных партнёров – приобрести пиво оптом Москве и Московской области можнона выгодных условиях, а главное, будучи уверенным в отличных вкусовых характеристиках!</p>
+        </div>
+        <div class="body__button">
+          <button>Перейти в каталог</button>
+        </div>
+        <div class="body__vniz">
+          <p>Пролистать вниз</p><img src="images/Mouse.png" alt="">
+          <div class="stroke">
+            <svg xmlns="http://www.w3.org/2000/svg" width="8" height="29" viewBox="0 0 8 29" fill="none">
+              <path d="M3.64645 28.3536C3.84171 28.5488 4.15829 28.5488 4.35355 28.3536L7.53553 25.1716C7.7308 24.9763 7.7308 24.6597 7.53553 24.4645C7.34027 24.2692 7.02369 24.2692 6.82843 24.4645L4 27.2929L1.17157 24.4645C0.97631 24.2692 0.659727 24.2692 0.464465 24.4645C0.269203 24.6597 0.269203 24.9763 0.464465 25.1716L3.64645 28.3536ZM3.5 -2.18557e-08L3.5 28L4.5 28L4.5 2.18557e-08L3.5 -2.18557e-08Z" fill="white"></path>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="wood" style="background-image: url(images/wood_BG.png)">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-4">
+            <div class="wood__img1"><img src="images/icons-image-1 1.png" alt=""></div>
+          </div>
+          <div class="col-4"> 
+            <div class="wood__body"><img id="wood__body__title" src="images/Group 154.png" alt="">
+              <h1>Наш ассортимент</h1>
+              <div class="row" style="margin-top: 30px;">
+                <div class="col-4"><img src="images/beer (Traced).png" alt=""></div>
+                <div class="col-4"><img src="images/beer 1.png" alt=""></div>
+                <div class="col-4"><img src="images/cider (Traced).png" alt=""></div>
+              </div>
+              <div class="row">(style="margin-top: 30px;")
+                <div class="col-6"> <img src="images/Beer Bottle And Glass (Traced).png" alt=""></div>
+                <div class="col-6"> <img src="images/lemonade (Traced).png" alt=""></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-4"> 
+            <div class="wood__img2"> <img src="images/icons-image-2-600x555 1.png" alt=""></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="pochemumi">
+      <div class="container"> 
+        <div class="pochemumi__title"><img src="images/Group 155.png" alt="">
+          <h1>Почему мы</h1>
+        </div>
+        <div class="pochemu__body"> 
+          <div class="row">
+            <div class="col-8 offset-2">
+              <div class="row"> 
+                <div class="col-md-3 col-6"><img src="images/Group 181.png" alt="">
+                  <p>Отборный солод</p>
+                </div>
+                <div class="col-md-3 col-6"><img src="images/Group.png" alt="">
+                  <p>Качественный хмель</p>
+                </div>
+                <div class="col-md-3 col-6"><img src="images/Group 11.png" alt="">
+                  <p>Специальная вода</p>
+                </div>
+                <div class="col-md-3 col-6"><img src="images/Vector.png" alt="">
+                  <p>Современное оборудование</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="restangle" style="background-image: url(images/hop_parallax 1.png)">
+      <div class="container"> 
+        <div class="restangle__title">
+          <h1>“Чудесное пиво, для замечательных людей”</h1>
+        </div>
+      </div>
+    </section>
+    <section class="about">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-6 order-md-1">
+            <div class="about__left">
+              <div class="row"> 
+                <div class="col-lg-4"><img src="images/bakal.png" alt=""></div>
+                <div class="col-lg-8">  <img src="images/Group 155.png" alt="">
+                  <h1>О компании</h1>
+                  <p>Приветствуем на официальном сайте компании «Вундербир» – опытного иквалифицированного производителя и поставщика вкусного, качественного пива!В ассортименте в большом разнообразии представлены хмельные напитки собственногоизготовления, а также от проверенных и надёжных партнёров – приобрести пиво оптомМоскве и Московской области можно на выгодных условиях, а главное, будучи увереннымв отличных вкусовых характеристиках!Приветствуем на официальном сайте компании«Вундербир» – опытного и квалифицированного производителя и поставщика вкусного,качественного пива! В ассортименте в большом разнообразии представлены хмельные напитки собственногоизготовления, а также от проверенных и надёжных партнёров – приобрести пиво оптом Москве и Московской области можно на выгодных условиях, а главное, будучи увереннымв отличных вкусовых характеристиках!</p>
+                  <button class="bn">Подробнее</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 order-md-2">
+            <div class="about__right"><img src="images/photo_2019-12-09_13-54-15 1.png" alt=""></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="uslugi">
+      <div class="container-fluid">
+        <div class="uslugi__header"><img src="images/Group 154.png" alt="">
+          <h1>Услуги</h1>
+        </div>
+        <div class="row"> 
+          <div class="col-md-6 order-md-1">
+            <div class="uslugi__left" style="background-image: url(images/2209.png)">
+              <div class="text">
+                <h1>Дистрибуция</h1>
+                <p>Предоставляем услуги по комплектации магазинов разливного пива "под ключ"</p>
+                <button>Подробнее</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 order-md-2">
+            <div class="uslugi__right" style="background-image: url(images/19964 1.png)">
+              <div class="text2">
+                <h1>Комплектация магазинов</h1>
+                <p>Дистрибьюция по Москве и Московской области, региональных производителей пива пивныхнапитков</p>
+                <button>Подробнее</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="novinki">
+      <div class="container"> 
+        <div class="novinki__title"><img src="images/Group 155.png" alt="">
+          <h1>Новинки</h1>
+          <p>Откройте для себя наше пиво</p>
+        </div>
+        <div class="novinki__body">
+          <div class="row">
+            <div class="col-md-3 col-sm-6 order-sm-1">
+              <div class="novinki__body_center"><img src="images/beer_02-360x963.png" alt="">
+                <h2>Irish Stout</h2>
+                <p>%4,6, Светлое, Нефильрованное</p>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 order-sm-2">
+              <div class="novinki__body_center"><img src="images/beer_03-360x963.png" alt="">
+                <h2>Irish Stout</h2>
+                <p>%4,6, Светлое, Нефильрованное</p>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 order-sm-3">
+              <div class="novinki__body_center"><img src="images/beer_04-360x963.png" alt="">
+                <h2>Irish Stout</h2>
+                <p>%4,6, Светлое, Нефильрованное</p>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 order-sm-4">
+              <div class="novinki__body_center"><img src="images/beer_03-360x963.png" alt="">
+                <h2>Irish Stout</h2>
+                <p>%4,6, Светлое, Нефильрованное</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="novinki2">
+          <div class="carousel slide" id="carouselExampleCaptions1"> 
+            <div class="carousel-indicators">
+              <button class="active" type="button" data-bs-target="#carouselExampleCaptions1" data-bs-slide-to="0" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions1" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions1" data-bs-slide-to="2" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions1" data-bs-slide-to="3" aria-label="Slide 2"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active"><img src="images/beer_02-360x963.png" alt="">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 style="color: black;">Irish Stout</h5>
+                  <p>%4,6, Светлое, Нефильрованное</p>
+                </div>
+              </div>
+              <div class="carousel-item"><img class="d-block w-100" src="images/beer_03-360x963.png" alt="">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Irish Stout</h5>
+                  <p>%4,6, Светлое, Нефильрованное</p>
+                </div>
+              </div>
+              <div class="carousel-item"><img class="d-block w-100" src="images/beer_04-360x963.png" alt="">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Irish Stout</h5>
+                  <p>%4,6, Светлое, Нефильрованное</p>
+                </div>
+              </div>
+              <div class="carousel-item"><img class="d-block w-100" src="images/beer_04-360x963.png" alt="">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Irish Stout</h5>
+                  <p>%4,6, Светлое, Нефильрованное</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions1" data-bs-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span><span class="visually-hidden">Previous</span></button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions1" data-bs-slide="next"><span class="carousel-control-next-icon" aria-hidden="true"></span><span class="visually-hidden">Next</span></button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="partneri">
+      <div class="container">
+        <div class="partneri__title"><img src="images/Group 155.png" alt="">
+          <h1>Наши партнеры</h1>
+        </div>
+        <div class="carousel slide" id="carouselExampleCaptions" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button class="active" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active"><img class="d-block w-100" src="images/download 1.png" alt="">
+              <div class="carousel-caption d-none d-md-block"></div>
+            </div>
+            <div class="carousel-item"><img class="d-block w-100" src="images/Tag_etic_premium_2-e1527760759398 1.png" alt="">
+              <div class="carousel-caption d-none d-md-block"></div>
+            </div>
+            <div class="carousel-item"><img class="d-block w-100" src="images/logo 1.png" alt="">
+              <div class="carousel-caption d-none d-md-block"></div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev"><i class="fa-solid fa-angle-left fa-beat-fade"></i><span class="carousel-control-prev-icon" aria-hidden="true"></span><span class="visually-hidden">Previous</span></button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next"><i class="fa-solid fa-angle-right fa-beat-fade"></i><span class="carousel-control-next-icon" aria-hidden="true"></span><span class="visually-hidden">Next</span></button>
+        </div>
+      </div>
+    </section>
+    <section class="novosti">
+      <div class="container">
+        <div class="novosti__title"><img src="images/Group 154.png" alt="">
+          <h1>Новости</h1>
+        </div>
+        <div class="novosti__body">
+          <div class="row">
+            <div class="col-4"><img src="images/19964 1.png" alt="">
+              <h2>Откройте для себя нашекрафтовое пиво</h2>
+              <p>При покупки 3-х бутылок нашего крафтого пива 1 бутылка в подарок </p>
+            </div>
+            <div class="col-4"><img src="images/536943-PJIX1A-613.png" alt="">
+              <h2>Откройте для себя нашекрафтовое пиво</h2>
+              <p>При покупки 3-х бутылок нашего крафтого пива 1 бутылка в подарок </p>
+            </div>
+            <div class="col-4"><img src="images/18069000.png" alt="">
+              <h2>Откройте для себя нашекрафтовое пиво</h2>
+              <p>При покупки 3-х бутылок нашего крафтого пива 1 бутылка в подарок</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 col-6">
+            <div class="footer__1">
+              <div class="footer__1__title"><img src="images/wunderbeer.png" alt="">
+                <h1>Wunderbeer</h1>
+              </div>
+              <div class="footer__1__body">
+                <p>В ассортименте в большом разнообразии представлены хмельные напитки собственногоизготовления, а также от проверенных и надёжных партнёров.</p>
+              </div>
+              <div class="footer__1__icons"><i class="fa-brands fa-instagram"></i><i class="fa-solid fa-w"></i><i class="fa-brands fa-facebook"></i></div>
+            </div>
+          </div>
+          <div class="col-md-4 col-6">
+            <div class="footer__2">
+              <div class="footer__2__title">
+                <p>Контактная информация</p>
+              </div>
+              <div class="footer__2__body">
+                <div class="footer__2__body__loc"><i class="fa-solid fa-location-dot fa-bounce"></i><span>Россия, Москва, Рязанский проспект 22, к2</span></div>
+                <div class="footer__2__body__number"><i class="fa-solid fa-phone-flip fa-beat-fade"></i>
+                  <p>+7 (495) 740-40-51</p>
+                </div>
+                <div class="footer__2__body__number"><i class="fa-solid fa-phone-flip fa-beat-fade"></i>
+                  <p>+7 (495) 740-40-51    </p>
+                </div>
+                <div class="footer__2__body__number"><i class="fa-solid fa-envelope fa-flip"></i>
+                  <p>+7 (495) 740-40-51   </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-12">
+            <div class="footer__3">
+              <p>Каталог</p>
+              <p>Дистрибуция</p>
+              <p>Комплектация магазинов</p>
+              <p>О компании</p>
+              <p>Контакты</p>
+              <p>Корзинa</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
